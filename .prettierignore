@@ -1,0 +1,7 @@
+node_modules
+.venv
+venv
+dist
+db.sqlite3
+__pycache__
+.eslintcache
