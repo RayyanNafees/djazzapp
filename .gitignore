@@ -5,3 +5,4 @@ dist
 db.sqlite3
 __pycache__
 .eslintcache
+[0-9]*_[a-z|_]*.py

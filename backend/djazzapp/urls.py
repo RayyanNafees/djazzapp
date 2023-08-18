@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.shortcuts import render
 
 
@@ -8,4 +8,4 @@ def home(request):
     return render(request, "index", {"test": "Hello From Django!"})
 
 
-urlpatterns = [path("", home)]
+urlpatterns = [path("", home), path('polls', include('polls.urls'))]
