@@ -1,5 +1,5 @@
 # djazzapp
-A Djazztro project
+A [Djazztro](https://github.com/Bwc9876/Djazztro) project
 
 ## Setup
 
